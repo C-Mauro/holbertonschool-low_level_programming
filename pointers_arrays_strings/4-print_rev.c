@@ -1,0 +1,17 @@
+#include "main.h" 
+/**
+ *print_rev -print the string in reverse.
+ *
+ *
+ */
+void print_rev(char *s)
+{
+	int i;
+	for (i = 0 ; s[i] != '\0' ; i++)
+	{
+	 _strlen(s);
+		i--;
+		s--;
+
+	}
+}
