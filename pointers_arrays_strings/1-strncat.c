@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- *_strcat -concatenate two strings.
+ *_strncat -concatenate two strings.
  *
  * @src: first string (address)
  *
  * @dest: second string (address)
+ *
+ *@n: bytes
  *
  * Return: the value on src (two strings)
  */
@@ -15,12 +17,8 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; dest[i] != '\0'; i++)
 		;
-	for (j = 0; j < n; j++)
-	{
-		dest[i] = src [j];
-		i++;
-		j++;
-		dest[i] = '\0';
-	}
-	return(dest);
+	for (j = 0; j < n && src[j]; j++, i++)
+		dest[i] = src[j];
+
+	return (dest);
 }
