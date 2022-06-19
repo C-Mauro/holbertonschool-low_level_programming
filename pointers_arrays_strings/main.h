@@ -19,3 +19,6 @@ char *_strchr(char *s, char c);
 char *_strncpy(char *dest, char *src, int n);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
+char *_strcpy(char *dest, char *src);
+char *cap_string(char *);
+
