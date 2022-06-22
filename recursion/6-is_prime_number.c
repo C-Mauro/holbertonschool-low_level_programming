@@ -19,7 +19,7 @@ int prime_num(int n, int m)
 		return (1);
 	}
 
-	return (0);
+	return (1);
 }
 	
 int is_prime_number(int n)
