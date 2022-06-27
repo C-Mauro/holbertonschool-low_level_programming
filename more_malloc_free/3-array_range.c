@@ -5,7 +5,7 @@
 /**
  *array_range - creates an array of integers
  *@min: min of the range
- *@max: max of the range 
+ *@max: max of the range
  *Return: pointer
  */
 int *array_range(int min, int max)
@@ -13,7 +13,7 @@ int *array_range(int min, int max)
 	int *ptr;
 	int i;
 	int range;
-	
+
 	if (min > max)
 		return (NULL);
 
