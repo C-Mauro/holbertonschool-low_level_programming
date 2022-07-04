@@ -9,13 +9,13 @@ all: $(OBJ)
 
 
 clean: 
-	${rm} -f *~ $(NAME)
+	${RM} -f *~ $(NAME)
 
 oclean:
-	$(rm) -f $(OBJ)
+	$(RM) -f $(OBJ)
 
 fclean: 
-	${rm} -f *~ $(NAME) $(OBJ)
+	${RM} -f *~ $(NAME) $(OBJ)
 
 re: all
 
