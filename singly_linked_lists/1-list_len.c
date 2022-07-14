@@ -12,9 +12,6 @@ size_t list_len(const list_t *h)
 	if (h == NULL)
 		return (0);
 
-	if (temp->len == '\0')
-		return(0);
-
 	for (i = 0; temp != NULL; i++)
 		temp = temp->next;
 
