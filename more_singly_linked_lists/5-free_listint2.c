@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *free_listsint2 -free list but set null to the head
+ *free_listint2 -free list but set null to the head
  *@head: pointer to a pointer (address to the first element of the list)
  */
 void free_listint2(listint_t **head)
