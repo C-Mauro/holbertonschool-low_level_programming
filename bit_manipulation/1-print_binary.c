@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ *print_binary -print the binary value to the n.
+ *@n: number
+ *Return: return the n convert into binary.
+ */
 void print_binary(unsigned long int n)
 {
 	if (n > 1)
