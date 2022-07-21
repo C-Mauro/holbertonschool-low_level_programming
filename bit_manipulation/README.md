@@ -1,10 +1,10 @@
-###C- Bit manipulation###
+### C- Bit manipulation ###
 
-##Learning objetiives:##
+## Learning objetives: ##
 Look for the right source of information without too much help
 How to manipulate bits and use bitwise operators
 
-##BITWISE OPERATORS##
+## BITWISE OPERATORS ##
  | *OR*
  Work like the logical operator (||)
 
@@ -23,7 +23,7 @@ How to manipulate bits and use bitwise operators
  Invert bit by bit, if you have 1 the result is 0, and if you have a 0 your result must be 1.
 
 
- >> *RIGHT SHIFT*
+ >>  *RIGHT SHIFT*
 Move x bites to the right.
 
  << *LEFT SHIFT*
