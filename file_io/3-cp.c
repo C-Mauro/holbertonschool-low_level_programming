@@ -2,14 +2,17 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * @brief 
- * 
+ * main - read a text file
+ *
+ * @argc: argument count
+ * @argv: argument list
+ *
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int ofile_from, ofile_to, cfile, rfile, wfile;
-	char buffer[1024];
+	int ofile_from, ofile_to, cfile;
 
 	if (argc < 3)
 	{
@@ -34,8 +37,6 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	rfile = read(ofile_from, buffer, 1024);
-	wfile = write(ofile_to, buffer, 1024);
 
 	return (0);
 }
