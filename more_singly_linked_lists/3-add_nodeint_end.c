@@ -42,5 +42,5 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		temp->next = newnode;
 
 	return (newnode);
-	free(newnode);
+	
 }
