@@ -1,4 +1,5 @@
-i# Simple Shell # 
+# Simple Shell # 
+
 ![contributors](https://img.shields.io/github/contributors/salvaborit/holbertonschool-simple_shell)
 ### *About:* ###
 This program is based in the 5.0.17 shell version, with a really simple usage, how are you going to see below, that program execute commands read from a command line string, the standard input.
