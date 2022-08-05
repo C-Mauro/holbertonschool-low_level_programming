@@ -1,4 +1,4 @@
-# Simple Shell # 
+i# Simple Shell # 
 ![contributors](https://img.shields.io/github/contributors/salvaborit/holbertonschool-simple_shell)
 ### *About:* ###
 This program is based in the 5.0.17 shell version, with a really simple usage, how are you going to see below, that program execute commands read from a command line string, the standard input.
@@ -27,12 +27,42 @@ _compilation:_
 **Simple usage with ls:**
 
 *_input:_*
+`cisfun$ ls`
+
+*_output:_*
+
+```
+cisfun$ ls
+a.out    environ.c  main.c  README.md  shellclear
+environ  hsh        main.h  shell      sig.c
+cisfun$
+```
+*_input:_*
 ` cisfun$ ls -l -a -h `
 you can also do:
 ` cisfun$ ls -lah `
 
 *_output:_*
+
 ```
+cisfun$ ls -lah
+total 3.0M
+drwxr-xr-x 3 root root  194 Aug  5 03:41 .
+drwx------ 1 root root 4.0K Aug  5 03:34 ..
+-rwxr-xr-x 1 root root  18K Aug  4 05:15 a.out
+-rwxr-xr-x 1 root root  17K Aug  3 12:48 environ
+-rw-r--r-- 1 root root  153 Aug  3 12:48 environ.c
+drwxr-xr-x 8 root root  220 Aug  3 11:25 .git
+-rwxr-xr-x 1 root root  20K Aug  3 11:20 .hsh
+-rwxr-xr-x 1 root root  21K Aug  3 11:20 hsh
+-rw-r--r-- 1 root root 3.4K Aug  5 03:28 main.c
+-rw-r--r-- 1 root root  16K Aug  5 03:16 .main.c.swp
+-rw-r--r-- 1 root root  464 Aug  5 03:29 main.h
+-rw-r--r-- 1 root root    7 Aug  3 11:20 README.md
+-rwxr-xr-x 1 root root 2.9M Aug  5 03:29 shell
+-rwxr-xr-x 1 root root  22K Aug  4 17:20 shellclear
+-rw-r--r-- 1 root root   97 Aug  3 12:15 sig.c
+cisfun$
 
 ```
 
@@ -95,8 +125,8 @@ _________________________
 Header file, here you can find all the prototypes of the functions.
 
 **_Authors:_**
-[Salvador Borit](https://github.com/salvaborit)
-[Camila Mauro](https://github.com/C-Mauro)
+* [Salvador Borit](https://github.com/salvaborit)
+* [Camila Mauro](https://github.com/C-Mauro)
 
 
 
