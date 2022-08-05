@@ -126,8 +126,8 @@ _________________________
 Header file, here you can find all the prototypes of the functions.
 
 **_Authors:_**
-* [Salvador Borit](https://github.com/salvaborit)
-* [Camila Mauro](https://github.com/C-Mauro)
+* [Salvador Borit](https://github.com/salvaborit) ![follow](https://img.shields.io/github/followers/salvaborit?style=social)
+* [Camila Mauro](https://github.com/C-Mauro) ![follow](https://img.shields.io/github/followers/C-Mauro?style=social)
 
 
 
